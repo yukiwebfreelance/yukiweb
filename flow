@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<head>
+  <html lang="ja">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+  <title>Webサイト構築（初級編）-完成版</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+  <link rel="stylesheet" href="flow.css">
+</head>
+<body>
+  
+  <!-- TOP -->
+  <div class="header">
+    <div class="header_logo">
+      <a href="index.html">YukiWebPartner<br><span>Freelance Web Designer/Saitama</span></a>
+    </div>
+    <ul>
+      <li class="basic-4"><a href="index.html">HOME</a></li>
+      <li class="basic-4"><a href="service.html">SERVICE</a></li>
+      <li class="basic-4"><a href="flow.html">FLOW</a></li>
+      <li class="basic-4"><a href="partner.html">PARTNER</a></li>
+      <li class="basic-4"><a href="works.html">WORKS</a></li>
+      <li class="basic-4"><a href="price.html">PRICE</a></li>
+      <li class="basic-4"><a href="about.html">ABOUT</a></li>
+      <li class="basic-4"><a href="contact.html">CONTACT</a></li>
+    </ul>
+  </div>
+
+
+  <div class="flow-contents">
+    <div class="flow-contents_title">
+      <h2>FLOW</h2>
+    </div>
+    <div class="flow-contents_description">
+      <h2>ご予算やご要望に応じた最適なホームページをご提案します。</h2>
+      <div class="flow-contents_description_area">
+        <p>「10Pのサイトだといくらですか？」とお問い合わせいただくことがたびたびあります。<br>
+          実は同じ1ページを制作するにも、ご要望のレベルや達成したい目標により作業量に差が出るため、<br> 料金も同じではありません。<br><br>
+          まずはお話をおきかせください。（無料でお話を伺います：対面またはオンライン）<br>
+          ご要望や目的をお伺いし、お見積を作成させていただきます。
+        </p>
+        <img src="img/5.svg" alt="" width="300px">
+      </div>
+    </div>
+  </div>
+
+  <div class="flow-contents_container">
+    <div class="flow-contents_container_title">
+      <h2>ご依頼から納品までの流れ</h2>
+    </div>
+    <div class="flow-contents_container_area">
+      <div class="flow-contents_container_box">
+        <h2><span>1.</span>お問い合わせ・ご相談（無料）</h2>
+        <p>まずはお気軽にこちらのお問合わせフォームからご連絡ください。<br>
+          ３営業日以内に返信いたします（土日・祝日を除く）。<br>
+          ※３日過ぎても返信がない場合、迷惑メールと判断されてしまい「迷惑メールフォルダ」に自動仕分けされている可能性がございます。<br>「迷惑メールフォルダ」もご確認ください。またはお客様のプロバイダーサービス・メール設定のご確認をお願いいたします。お手数おかけしますがよろしくお願いいたします。
+          
+          </p>
+      </div>
+      <div class="flow-contents_container_box">
+        <h2><span>2.</span>ヒアリング（無料）</h2>
+        <p>基本的に対面でお打ち合わせをお願いいたします。<br>
+          どんなホームページにしたいか、いつまでに開設したいかなど、お客様のお問合せ内容・ご要望をしっかりとお伺いします。
+          </p>
+      </div>
+      <div class="flow-contents_container_box">
+        <h2><span>3.</span>ご提案・お見積もり（無料）</h2>
+        <p>ページ数や写真加工などをもとに、お見積り、ページ構成、製作日数などをメールにてご提案させていただきます。
+          お見積り書をご覧頂きましてご検討いただいてからご契約となります。(ここまでは無料とさせていただきます)</p>
+      </div>
+      <div class="flow-contents_container_box">        
+        <h2><span>4.</span>ご契約</h2>
+        <p>お見積書にご了承頂きました場合、正式なご契約となりますので、請求書をお送りいたします。<br>
+          10万円以上の場合、制作着手金としてお見積もり金額の50%の入金をお願いいたします。<br>
+          ※契約後のキャンセルは作業状況に応じてキャンセル料をご請求することがございます。<br>
+          ※お支払いは、発注時に全体費用の半額、ホームページ開設時に残りの金額をお支払いただきます。なお、５万円未満は全額前払いとなります。</p>
+      </div>
+      <div class="flow-contents_container_box">
+        <h2><span>5.</span>サイト構成書の作成・デザイン</h2>
+        <p>まずはトップページのデザイン案、そのほかのページのテンプレートデザインを決めていきます。<br>
+          ホームページ制作にあたって土台になる部分ですので、何度かお打ち合わせさせて頂き、決めていきます。<br>
+           この段階ではhtml形式ではなく、画像データでのデザイン案の確認になります。
+          </p>
+      </div>
+      <div class="flow-contents_container_box">
+        <h2><span>6.</span>コーディング / CMS（サイト更新システム）・ブログ設置</h2>
+        <p>ベースデザインを決定いただきましたら、html形式のコーディング作業に入ります。最終的なテキストデータをご用意ください。<br>
+          コーディング作業が開始した後の大幅なデザインの変更は、当方の作業が１からやり直しになる場合がございます。その場合、納期延長や別途料金をいただく場合がございますので、予めご了承ください。</p>
+      </div>
+      <div class="flow-contents_container_box">
+        <h2><span>7.</span>最終確認・ホームページ公開・納品</h2>
+        <p>ページが完成後、仮サーバーにアップロードし、最終的な確認をしていただきます。</p>
+      </div>
+      <div class="flow-contents_container_box">
+        <h2><span>8.</span>完成後・アフターフォロー</h2>
+        <p>ホームページ更新方法のマニュアルをお渡しいたします。開設後１か月間は無料でサポートいたしますので、分からない点などございましたら、なんなりとご質問ください。<br>
+          ホームページ開設後の更新作業や運用・管理などのサービスも行っております。
+        </p>
+      </div>
+    </div>
+
+  </div>
+  
+
+
+</body>
