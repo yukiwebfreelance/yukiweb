@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+  <html lang="ja">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+  <title>Webサイト構築（初級編）-完成版</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+  <link rel="stylesheet" href="partner.css">
+</head>
+<body>
+  <div class="header">
+    <div class="header_logo">
+      <a href="index.html">YukiWebPartner<br><span>Freelance Web Designer/Saitama</span></a>
+    </div>
+    <ul>
+      <li class="basic-4"><a href="index.html">HOME</a></li>
+      <li class="basic-4"><a href="service.html">SERVICE</a></li>
+      <li class="basic-4"><a href="flow.html">FLOW</a></li>
+      <li class="basic-4"><a href="partner.html">PARTNER</a></li>
+      <li class="basic-4"><a href="works.html">WORKS</a></li>
+      <li class="basic-4"><a href="price.html">PRICE</a></li>
+      <li class="basic-4"><a href="about.html">ABOUT</a></li>
+      <li class="basic-4"><a href="contact.html">CONTACT</a></li>
+    </ul>
+  </div>
+
+  <div class="price-contents">
+    <div class="price-contents_title">
+      <h2>PARTNER</h2>
+    </div>
+    <div class="price-contents_description">
+      <h2>外注パートナーとして、WEBデザインやコーディングなど<br>
+        WEB制作会社様や広告代理店様からのお仕事も承っております。</h2>
+      <div class="price-contents_description_area">
+        <p>「10Pのサイトだといくらですか？」とお問い合わせいただくことがたびたびあります。<br>
+          実は同じ1ページを制作するにも、ご要望のレベルや達成したい目標により作業量に差が出るため、<br> 料金も同じではありません。<br><br>
+          まずはお話をおきかせください。（無料でお話を伺います：対面またはオンライン）<br>
+          ご要望や目的をお伺いし、お見積を作成させていただきます。
+        </p>
+        <img src="img/6.svg" alt="" width="300px">
+      </div>
+    </div>
+    <div class="service-contents_container_title">
+      <h2>ご要望内容により制作料金は変わります。<br>
+        下記の料金は目安としてご参考程度にお考えください。
+      </h2>
+    </div>
+  </div>
+
+  <section>
+    <a href="price.html" target="_blank" class="btn_ao_b"><span class="b__text">詳しくはこちら</span></a>
+  </section>
