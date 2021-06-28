@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<head>
+  <html lang="ja">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+  <title>Webサイト構築（初級編）-完成版</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+  <link rel="stylesheet" href="price.css">
+</head>
+<body>
+  <div class="header">
+    <div class="header_logo">
+      <a href="index.html">YukiWebPartner<br><span>Freelance Web Designer/Saitama</span></a>
+    </div>
+    <ul>
+      <li class="basic-4"><a href="index.html">HOME</a></li>
+      <li class="basic-4"><a href="service.html">SERVICE</a></li>
+      <li class="basic-4"><a href="flow.html">FLOW</a></li>
+      <li class="basic-4"><a href="partner.html">PARTNER</a></li>
+      <li class="basic-4"><a href="works.html">WORKS</a></li>
+      <li class="basic-4"><a href="price.html">PRICE</a></li>
+      <li class="basic-4"><a href="about.html">ABOUT</a></li>
+      <li class="basic-4"><a href="contact.html">CONTACT</a></li>
+    </ul>
+  </div>
+
+  <div class="price-contents">
+    <div class="price-contents_title">
+      <h2>PRICE</h2>
+    </div>
+    <div class="price-contents_description">
+      <h2>ホームページの規模やご要望によって制作料金は大きく異なります。<br>
+        以下の制作料金・お見積もり例は目安としてお考えください。</h2>
+      <div class="price-contents_description_area">
+        <p>「10Pのサイトだといくらですか？」とお問い合わせいただくことがたびたびあります。<br>
+          実は同じ1ページを制作するにも、ご要望のレベルや達成したい目標により作業量に差が出るため、<br> 料金も同じではありません。<br><br>
+          まずはお話をおきかせください。（無料でお話を伺います：対面またはオンライン）<br>
+          ご要望や目的をお伺いし、お見積を作成させていただきます。
+        </p>
+        <img src="img/1.svg" width="300px">
+      </div>
+    </div>
+    <div class="service-contents_container_title">
+      <h2>ご要望内容により制作料金は変わります。<br>
+        下記の料金は目安としてご参考程度にお考えください。
+      </h2>
+    </div>
+  </div>
+
+  <div class="price-list">
+    <div class="list">
+      <dl>
+        <dt>ディレクション費</dt>
+        <dd>¥50,000~</dd>
+        <p>打ち合わせやサイト構成資料を作成する費用です。<br>
+          サイトの種類や目的によって金額が大幅に変わります。</p>
+      </dl>
+    </div>
+    <div class="list">
+      <dl>
+        <dt>トップページデザイン</dt>
+        <dd>¥50,000~</dd>
+        <dt>下層ページデザイン</dt>
+        <dd>¥15,000~</dd>
+      </dl>
+    </div>
+    <div class="list">
+      <dl>
+        <dt>トップページコーディング</dt>
+        <dd>¥25,000~</dd>
+        <dt>下層ページコーディング</dt>
+        <dd>¥6,000~</dd>
+      </dl>
+    </div>
+    <div class="list">
+      <dl>
+        <dt>スマホ対応（レスポンシブ）</dt>
+        <dd>PCサイト制作費の60%~</dd>
+      </dl>
+    </div>
+    <div class="list">
+      <dl>
+        <dt>CMS/ブログ設置（WordPress使用の場合）</dt>
+        <dd>¥30,000~</dd>
+        <dt>メールフォーム</dt>
+        <dd>¥15,000~</dd>
+        <dt>ドメイン・サーバー契約代行</dt>
+        <dd>¥3,000~</dd>
+        <p>CMS / ブログ設置はカスタマイズする内容によって金額が大幅に変わります。</p>
+      </dl>
+    </div>
+  </div>
+
+  <div>
+    <div class="price-like_title">
+      <h2>お見積もり例</h2>
+    </div>
+    <div class="baloon">
+      <h2>aaaaaaaaaaaaaaaaa</h2>
+    </div>
+  </div>
+
+  <!--FOOTER-->
+  <footer>
+    <div class="wrapper">
+      <p>2021 &copy; SampleCompany</p>
+    </div>
+  </footer>
+  <!--END FOOTER-->
+
+
+
+  
+</body>
+</html>
