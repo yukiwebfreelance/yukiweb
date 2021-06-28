@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<head>
+  <html lang="ja">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+  <title>Webサイト構築（初級編）-完成版</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+  <link rel="stylesheet" href="service.css">
+</head>
+<body>
+  <!-- TOP -->
+  <div class="header">
+    <div class="header_logo">
+      <a href="index.html">YukiWebPartner<br><span>Freelance Web Designer/Saitama</span></a>
+    </div>
+    <ul>
+      <li class="basic-4"><a href="index.html">HOME</a></li>
+      <li class="basic-4"><a href="service.html">SERVICE</a></li>
+      <li class="basic-4"><a href="flow.html">FLOW</a></li>
+      <li class="basic-4"><a href="partner.html">PARTNER</a></li>
+      <li class="basic-4"><a href="works.html">WORKS</a></li>
+      <li class="basic-4"><a href="price.html">PRICE</a></li>
+      <li class="basic-4"><a href="about.html">ABOUT</a></li>
+      <li class="basic-4"><a href="contact.html">CONTACT</a></li>
+    </ul>
+      
+  </div>
+
+  <!-- CONTENTS -->
+  <div class="service-contents">
+    <div class="service-contents_title">
+      <h2>SERVICE</h2>
+    </div>
+    <div class="service-contents_description">
+      <h2>サイトを役立つ営業マンに！<br>
+        成果へ繋げるためにお手伝いいたします。</h2>
+      <div class="service-contents_description_area">
+        <p>Webサイトが完成しても成果に繋がらなければ、サイト制作にかけたお金、時間、そして効果のないサイトを公開していることで逃した顧客など、大きな損失となります。<br><br>
+          Webサイトへの投資を無駄にせず、集客や成約などの成果に繋げるために、お客様の個々のビジネスや、お客様のWebサイトが抱えている課題に合わせたご提案・制作を行っています。
+        </p>
+        <img src="img/contact.svg" alt="" width="300px">
+      </div>
+    </div>
+    <div class="service-contents_container">
+      <div class="service-contents_container_title">
+        <h2>お客様の商品やサービスの魅力がより伝わるために<br>
+          制作のどの工程も大切にしています。
+        </h2>
+      </div>
+      <div class="service-contents_container_area">
+        <div class="service-contents_box">
+          <img src="img/browser.png" alt="" width="150px">
+          <h2>ホームページ制作・ウェブサイト制作</h2>
+          <p>ああああああああああああああああああああああ<br>
+            ああああああああああああああああああああああ<br>
+            ああああああああああああああああああああああ<br>
+            ああああああああああああああああああああああ<br>
+            ああああああああああああああああああああああ<br>
+          </p>
+        </div>
+        <div class="service-contents_box">
+          <img src="img/browser.png" alt="" width="150px">
+          <h2>LP制作</h2>
+          <p>ああああああああああああああああああああああ<br>
+            ああああああああああああああああああああああ<br>
+            ああああああああああああああああああああああ<br>
+            ああああああああああああああああああああああ<br>
+            ああああああああああああああああああああああ<br></p>
+        </div>
+        <div class="service-contents_box">
+          <img src="img/browser.png" alt="" width="150px">
+          <h2>スマホ対応サイト</h2>
+          <p>ああああああああああああああああああああああ<br>
+            ああああああああああああああああああああああ<br>
+            ああああああああああああああああああああああ<br>
+            ああああああああああああああああああああああ<br>
+            ああああああああああああああああああああああ<br></p>
+        </div>
+        <div class="service-contents_box">
+          <img src="img/browser.png" alt="" width="150px">
+          <h2>デザイン・コーディング</h2>
+          <p>ああああああああああああああああああああああ<br>
+            ああああああああああああああああああああああ<br>
+            ああああああああああああああああああああああ<br>
+            ああああああああああああああああああああああ<br>
+            ああああああああああああああああああああああ<br></p>
+        </div>
+        <div class="service-contents_box">
+          <img src="img/browser.png" alt="" width="150px">
+          <h2>Wordpress</h2>
+          <p>ああああああああああああああああああああああ<br>
+            ああああああああああああああああああああああ<br>
+            ああああああああああああああああああああああ<br>
+            ああああああああああああああああああああああ<br>
+            ああああああああああああああああああああああ<br></p>
+        </div>
+        <div class="service-contents_box">
+          <img src="img/browser.png" alt="" width="150px">
+          <h2>集客・SEO対策</h2>
+          <p>ああああああああああああああああああああああ<br>
+            ああああああああああああああああああああああ<br>
+            ああああああああああああああああああああああ<br>
+            ああああああああああああああああああああああ<br>
+            ああああああああああああああああああああああ<br></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="service_description">
+    <div class="service_description_title">
+      <h2>制作へのこだわり</h2>
+    </div>
+    <div class="service_description_area">
+      <h3>成果が出ない中小企業のWebサイトが抱えるよくある問題を改善し、<br>
+        選ばれるための知識やテクニックを取り入れた制作を行っています。</h3>
+      <hr width="400">
+      <p>しかし、多くの企業サイトの制作に携わる中で、綺麗にデザインしただけでは結果に繋がらないことを学びました。<br>
+        お問い合わせや申し込みに繋げるためには、ユーザーの理解、マーケティング戦略、SEO、情報の中身やサイトの使いやすさ、言葉の選び方など、<br>見た目の綺麗さ以外の部分こそが重要だったのです。</p>
+    </div>
+  </div>
+
+
+
+ 
+  <!--FOOTER-->
+  <footer>
+    <div class="wrapper">
+      <p>2021 &copy; SampleCompany</p>
+    </div>
+  </footer>
+  <!--END FOOTER-->
+
+</body>
+</html>
