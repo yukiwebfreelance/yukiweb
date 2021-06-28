@@ -1,0 +1,232 @@
+
+*{
+  box-sizing:border-box;
+}
+
+body {
+  font-family:-apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI","Noto Sans Japanese","ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: #333;
+}
+
+
+/*TOPNAVI*/
+.top_main {
+  position: relative;
+}
+
+.top_main img {
+  margin: 80px 0 50px 135px;
+}
+.header {
+  position: absolute;
+  top: 0;
+  left: 0 ;
+  display: flex;
+  height: 65px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.header h2 {
+  color:#6870AE;
+  position: absolute;
+  font-size: 100px;
+  top: 80px;
+  right: 70px;
+  font-weight: lighter;
+  letter-spacing: 3px;
+}
+
+.header_comments {
+  position: absolute;
+  color: #333;
+  font-size: 17px;
+  top: 300px;
+  right: 7px;
+
+}
+.header p {
+  line-height: 50px;
+  font-weight: normal;
+}
+
+.header_logo {
+  padding-left: 15px;
+  padding-top: 18px;
+  font-size: 35px;
+  font-weight: 100;
+  line-height: 25px;
+  letter-spacing: 3px;
+}
+
+.header_logo a {
+  color: #6870AE;
+}
+
+.header_logo a span {
+  font-size: 18px;
+}
+
+.header ul {
+  display: flex;
+  padding-right: 25px;
+}
+
+.header ul li {
+  margin-left: 25px;
+  list-style: none;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.header ul li a {
+  color: #6870AE;
+}
+/*アニメーション*/
+.basic-4 {
+  background: 
+      linear-gradient(currentColor 0 0) 
+      var(--p, 0) 100% /var(--d, 0) 3px 
+      no-repeat;
+  transition: 0.3s, background-position 0s 0.3s;
+}
+.basic-4:hover {
+  --d: 100%;
+  --p: 100%;
+}
+
+/*------------------------------------------------------
+　　　　　　　　　＊ CONTENTS＊
+-------------------------------------------------------*/
+#top_contents {
+  width: 100%;
+  min-height: 500px;
+  background-color: #F2F5FB;
+}
+
+.top_title  h2 {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 25px;
+  color: #6870AE;
+}
+
+.top_title  h2 span {
+  border-bottom: 3px dotted #333;
+  color: #6870AE;
+}
+
+.top_area {
+  display: flex;
+  justify-content: center;
+}
+
+.top_box {
+  margin-top: 20px;
+}
+
+.top_box h3 {
+  font-size: 35px;
+  background: linear-gradient(transparent 70%, skyblue 70%);
+  color: #6870AE;
+}
+
+.top_list li {
+  font-size: 25px;
+  line-height: 50px;
+}
+
+/*------------------------------------------------------
+　　　　　　　　　＊ CONTENTS2＊
+-------------------------------------------------------*/
+#contents_area {
+  width: 100%;
+  min-height: 300px;
+}
+/*殻*/
+.contents_title {
+  padding: 5px 0;
+}
+
+.contents_title h2 {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 25px;
+  color: #6870AE;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.container_area {
+  width: 400px;
+  height: 400px;
+  margin: 30px 30px;
+}
+
+.container_area h2 {
+  font-size: 19px;
+  font-weight: bolder;
+  text-align: center;
+  color: #6870AE;
+}
+
+.container_area p {
+  text-align: left;
+  font-weight: 100;
+}
+
+.container_box {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: darkkhaki;
+  margin: 30px auto;
+  position: relative;
+}
+
+.container_box img {
+  position: absolute;
+  top: 60px;
+  left: 50px;
+  transition: transform 0.3s ease-out;
+}
+
+.container_box img:hover {
+  transform: rotate(10deg);
+}
+
+/*------------------------------------------------------
+　　　　　　　　　＊ SERVICE＊
+-------------------------------------------------------*/
+#service_contents {
+  width: 100%;
+  min-height: 500px;
+}
+/*殻*/
+.service_title {
+  padding: 5px 0;
+}
+
+.service_title h2 {
+  text-align: center;
+  font-size: 25px;
+  color: #6870AE;
+}
+/*------------------------------------------------------
+　　　　　　　　　＊ FOOTER＊
+-------------------------------------------------------*/
+footer{
+  background: #F6F6F6;
+}
+
+footer p{
+  text-align: center;
+}
